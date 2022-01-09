@@ -10,18 +10,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
  * @type {import('next').NextConfig}
  **/
 const nextConfig = {
-  async redirects() {
-    return [
-      {
-        source: '/login',
-        destination: '/auth/signin',
-        permanent: false
-      }
-    ]
-  },
-  images: {
-    domains: ['lh3.googleusercontent.com', 'c.tenor.com', 'source.boringavatars.com']
-  }
+  reactStrictMode: true,
+  swcMinify: true,
+  optimizeFonts: true
 }
 
 module.exports = withPlugins([[withBundleAnalyzer]], nextConfig)
