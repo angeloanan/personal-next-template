@@ -14,7 +14,7 @@ function CustomApp({ Component, pageProps }: CustomAppProps) {
   return Component.disableLayout ? (
     <Component {...pageProps} />
   ) : (
-    <div className='bg-gray-100 min-h-screen'>
+    <div className='min-h-screen bg-gray-100'>
       <Component {...pageProps} />
     </div>
   )
