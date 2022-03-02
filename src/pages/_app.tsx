@@ -1,5 +1,5 @@
 import '@fontsource/inter/variable.css'
-import 'tailwindcss/tailwind.css'
+import '../style/globals.css'
 
 import type { NextPage } from 'next'
 import type { AppProps } from 'next/app'
@@ -14,7 +14,7 @@ function CustomApp({ Component, pageProps }: CustomAppProps) {
   return Component.disableLayout ? (
     <Component {...pageProps} />
   ) : (
-    <div className='min-h-screen bg-gray-100'>
+    <div className='stylized-bg min-h-screen'>
       <Component {...pageProps} />
     </div>
   )
