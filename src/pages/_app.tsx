@@ -3,6 +3,9 @@ import '../style/globals.css'
 
 import type { NextPage } from 'next'
 import type { AppProps } from 'next/app'
+import { DefaultSeo } from 'next-seo'
+
+import SEOConfig from '../../next-seo.config'
 
 type CustomAppProps = AppProps & {
   Component: NextPage & {
@@ -14,9 +17,13 @@ function CustomApp({ Component, pageProps }: CustomAppProps) {
   return Component.disableLayout ? (
     <Component {...pageProps} />
   ) : (
-    <div className='stylized-bg min-h-screen'>
-      <Component {...pageProps} />
-    </div>
+    <>
+      <DefaultSeo {...SEOConfig} />
+
+      <div className='stylized-bg min-h-screen'>
+        <Component {...pageProps} />
+      </div>
+    </>
   )
 }
 
