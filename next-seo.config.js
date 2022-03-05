@@ -7,6 +7,9 @@ const defaultSEOConfig = {
   title: "Angelo's NextJS Template",
   titleTemplate: "%s | Angelo's NextJS Template",
 
+  description:
+    "Angelo's Personal NextJS Template - Complete with battery, energy or whatever you call it 🙄",
+
   openGraph: {
     type: 'website',
     locale: 'en_US',
