@@ -4,7 +4,7 @@
  * @type {import('next-seo').NextSeoProps}
  */
 const defaultSEOConfig = {
-  title: "Angelo's NextJS Template",
+  defaultTitle: "Angelo's NextJS Template",
   titleTemplate: "%s | Angelo's NextJS Template",
 
   description:
