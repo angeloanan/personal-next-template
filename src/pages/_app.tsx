@@ -1,4 +1,4 @@
-import '@fontsource/inter/variable.css'
+import '@fontsource-variable/inter'
 import '../style/globals.css'
 
 import type { NextPage } from 'next'
