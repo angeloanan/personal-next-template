@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'pnpm'
-      - run: pnpm
+      - run: pnpm install
       - run: pnpm lint
 
   tsc:
@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'pnpm'
-      - run: pnpm
+      - run: pnpm install
       - run: pnpm tsc --noEmit
 
   build:
@@ -46,5 +46,5 @@ jobs:
         with:
           node-version: '20'
           cache: 'pnpm'
-      - run: pnpm
+      - run: pnpm install
       - run: pnpm build
