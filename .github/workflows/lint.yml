@@ -12,9 +12,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '20'
-          cache: 'yarn'
-      - run: yarn
-      - run: yarn lint
+          cache: 'pnpm'
+      - run: pnpm
+      - run: pnpm lint
 
   tsc:
     name: Run Type Check
@@ -24,9 +24,9 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '20'
-          cache: 'yarn'
-      - run: yarn
-      - run: yarn tsc --noEmit
+          cache: 'pnpm'
+      - run: pnpm
+      - run: pnpm tsc --noEmit
 
   build:
     name: Run Build
@@ -36,6 +36,6 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '20'
-          cache: 'yarn'
-      - run: yarn
-      - run: yarn build
+          cache: 'pnpm'
+      - run: pnpm
+      - run: pnpm build
