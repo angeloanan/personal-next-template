@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -12,8 +12,8 @@ dependencies:
     specifier: ^1.7.15
     version: 1.7.15(react-dom@18.2.0)(react@18.2.0)
   '@next/bundle-analyzer':
-    specifier: ^13.4.8
-    version: 13.4.8
+    specifier: ^13.4.10
+    version: 13.4.10
   autoprefixer:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.25)
@@ -210,8 +210,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: false
 
-  /@next/bundle-analyzer@13.4.8:
-    resolution: {integrity: sha512-4lqwlBquxLmnuGvBGNRZUphIM+yIhzz/ARBNHA0MwzmGpqyZ4wAAZa26aHMPW50pdmwWGOr1fZYiWZM0rqx6bQ==}
+  /@next/bundle-analyzer@13.4.10:
+    resolution: {integrity: sha512-QwjRH/x1coj8+2Q2suXKez01Irc/rZQXiZ7qE96jj/xR1C+zze6cEdlhWzMlsBFlLmazBhFeOb0PeK6r4dVImA==}
     dependencies:
       webpack-bundle-analyzer: 4.7.0
     transitivePeerDependencies:
