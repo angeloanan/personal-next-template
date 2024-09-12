@@ -14,31 +14,32 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fontsource-variable/inter": "^5.0.15",
-    "@headlessui/react": "^1.7.17",
-    "@next/bundle-analyzer": "^14.0.2",
-    "autoprefixer": "^10.4.16",
-    "next": "^14.0.2",
-    "next-seo": "^6.4.0",
-    "postcss": "^8.4.31",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "sharp": "^0.32.6",
-    "tailwindcss": "^3.3.5",
+    "@fontsource-variable/inter": "^5.0.21",
+    "@headlessui/react": "^2.1.8",
+    "@next/bundle-analyzer": "^14.2.10",
+    "autoprefixer": "^10.4.20",
+    "next": "^14.2.10",
+    "next-seo": "^6.6.0",
+    "postcss": "^8.4.45",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.11",
     "tw-merge": "0.0.1-alpha.3"
   },
   "devDependencies": {
-    "@types/node": "^20.9.0",
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
+    "@types/node": "^22.5.4",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
     "eslint": "8.53.0",
-    "eslint-config-next": "14.0.2",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "5.0.1",
+    "eslint-config-next": "14.2.10",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "5.2.1",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "next-sitemap": "^4.2.3",
-    "prettier": "^3.1.0",
-    "prettier-plugin-tailwindcss": "^0.5.7",
-    "typescript": "^5.2.2"
-  }
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.6",
+    "typescript": "^5.6.2"
+  },
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
 }
